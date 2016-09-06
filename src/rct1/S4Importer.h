@@ -92,6 +92,9 @@ private:
     void ImportRide(rct_ride * dst, rct1_ride * src);
     void ImportRideMeasurements();
     void ImportRideMeasurement(rct_ride_measurement * dst, rct_ride_measurement * src);
+    void ImportSprites();
+    void ImportPeeps();
+    void ImportPeep(rct_peep * dst, rct1_peep * src);
     void ImportPeepSpawns();
     void ImportMapAnimations();
     void ImportFinance();
